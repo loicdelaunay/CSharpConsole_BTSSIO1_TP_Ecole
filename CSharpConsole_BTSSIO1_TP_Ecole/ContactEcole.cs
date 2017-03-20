@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpConsole_BTSSIO1_TP_Ecole
+namespace Classe
 {
     class ContactEcole
     {
@@ -17,11 +17,19 @@ namespace CSharpConsole_BTSSIO1_TP_Ecole
             nom = pNom;
         }
 
+        /// <summary>
+        /// Retourne l'année d'arrivée
+        /// </summary>
+        /// <returns>Année d'arrivée</returns>
         public int GetAnneeArrivee()
         {
             return anneeArrivee;
         }
 
+        /// <summary>
+        /// Retourne le nom
+        /// </summary>
+        /// <returns>Nom</returns>
         public string GetNom()
         {
             return nom;
