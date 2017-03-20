@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Classe
 {
-    class Etudiant
+    class Etudiant : ContactEcole
     {
+        public Etudiant(int pAnneeArrivee, string pNom) : base(pAnneeArrivee, pNom)
+        {
+        }
     }
 }

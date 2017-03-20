@@ -7,7 +7,7 @@ using Classe;
 
 namespace EcoleTln
 {
-    class Program
+    class EcoleTln
     {
         static void Main(string[] args)
         {
