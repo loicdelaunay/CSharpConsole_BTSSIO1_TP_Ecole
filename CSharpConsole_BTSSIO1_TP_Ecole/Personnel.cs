@@ -17,16 +17,28 @@ namespace Classe
             salaire = pSalaire;
         }
 
+        /// <summary>
+        /// Retourne le nom du laboratoire 
+        /// </summary>
+        /// <returns>Nom du laboratoire</returns>
         public string GetNomLaboratoire()
         {
             return nomLaboratoire;
         }
 
+        /// <summary>
+        /// Retourne le salaire
+        /// </summary>
+        /// <returns>Salaire</returns>
         public double GetSalaire()
         {
             return salaire;
         }
 
+        /// <summary>
+        /// Retourne l'objet en string
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return base.ToString()+" Nom du laboratoire : "+nomLaboratoire+" Salaire : "+salaire;
