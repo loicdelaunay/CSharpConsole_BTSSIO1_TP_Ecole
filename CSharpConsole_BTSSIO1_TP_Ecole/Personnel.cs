@@ -41,7 +41,7 @@ namespace Classe
         /// <returns></returns>
         public override string ToString()
         {
-            return base.ToString()+" Nom du laboratoire : "+nomLaboratoire+" Salaire : "+salaire;
+            return base.ToString()+"\nNom du laboratoire : "+nomLaboratoire+"\nSalaire : "+salaire;
         }
     }
 }

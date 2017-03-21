@@ -18,7 +18,7 @@ namespace Classe
 
         public override string ToString()
         {
-            return base.ToString()+" Section : "+section;
+            return base.ToString()+"\nSection : "+section;
         }
     }
 }

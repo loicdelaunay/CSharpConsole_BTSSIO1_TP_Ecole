@@ -37,7 +37,7 @@ namespace Classe
 
         public override string ToString()
         {
-            return "Nom : " + nom + "Arrivé le : " + anneeArrivee;
+            return "Nom : " + nom + "\nArrivé le : " + anneeArrivee;
         }
     }
 }

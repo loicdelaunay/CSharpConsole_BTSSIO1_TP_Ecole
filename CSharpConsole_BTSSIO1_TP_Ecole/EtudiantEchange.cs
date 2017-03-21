@@ -22,7 +22,7 @@ namespace Classe
 
         public override string ToString()
         {
-            return "EtudiantEchange : \n" + base.ToString();
+            return "\nEtudiantEchange : \n" + base.ToString();
         }
     }
 }

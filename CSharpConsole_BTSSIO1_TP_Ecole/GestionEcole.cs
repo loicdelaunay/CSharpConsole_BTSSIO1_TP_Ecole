@@ -53,7 +53,7 @@ namespace Classe
         /// 
         /// </summary>
         /// <returns></returns>
-        public double AncienneMoyenne() // A la recherche de son utilité !
+        public double AncienneMoyenne()
         {
             double moyenne = 0.0;
             foreach(ContactEcole contact in contacts)

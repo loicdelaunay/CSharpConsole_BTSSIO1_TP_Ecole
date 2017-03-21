@@ -18,7 +18,7 @@ namespace Classe
 
         public override string ToString()
         {
-            return "Enseignant : \n" + base.ToString();
+            return "\nEnseignant : \n" + base.ToString();
         }
     }
 }
