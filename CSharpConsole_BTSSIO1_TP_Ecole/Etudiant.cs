@@ -8,8 +8,17 @@ namespace Classe
 {
     class Etudiant : ContactEcole
     {
-        public Etudiant(int pAnneeArrivee, string pNom) : base(pAnneeArrivee, pNom)
+
+        private string section;
+
+        public Etudiant(int pAnneeArrivee, string pNom, string pSection) : base(pAnneeArrivee, pNom)
         {
+            section = pSection;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString()+" Section : "+section;
         }
     }
 }
