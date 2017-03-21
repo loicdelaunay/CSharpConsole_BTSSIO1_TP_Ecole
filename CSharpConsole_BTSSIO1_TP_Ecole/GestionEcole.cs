@@ -53,9 +53,15 @@ namespace Classe
         /// 
         /// </summary>
         /// <returns></returns>
-        public double AncienneMotenne() // A la recherche de son utilité !
+        public double AncienneMoyenne() // A la recherche de son utilité !
         {
-            return 0.0;
+            double moyenne = 0.0;
+            foreach(ContactEcole contact in contacts)
+            {
+                moyenne += DateTime.Now.Year - contact.GetAnneeArrivee();
+            }
+            moyenne /= contacts.Count();
+            return moyenne;
         }
 
         /// <summary>
