@@ -8,8 +8,8 @@ namespace Classe
 {
     class Personnel:ContactEcole
     {
-        private string nomLaboratoire;
-        private double salaire;
+        protected string nomLaboratoire;
+        protected double salaire;
 
         public Personnel(int pAnneeArrivee, string pNom, string pNomLaboratoire, double pSalaire) : base(pAnneeArrivee, pNom)
         {

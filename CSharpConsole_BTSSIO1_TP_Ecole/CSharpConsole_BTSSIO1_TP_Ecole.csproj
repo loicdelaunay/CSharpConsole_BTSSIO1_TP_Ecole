@@ -43,11 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContactEcole.cs" />
+    <Compile Include="Enseignant.cs" />
     <Compile Include="Etudiant.cs" />
+    <Compile Include="EtudiantEchange.cs" />
+    <Compile Include="EtudiantRegulier.cs" />
     <Compile Include="GestionEcole.cs" />
     <Compile Include="EcoleTLN.cs" />
     <Compile Include="Personnel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secretaire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

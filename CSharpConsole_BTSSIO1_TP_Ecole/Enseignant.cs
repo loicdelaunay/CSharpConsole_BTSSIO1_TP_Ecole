@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Classe
 {
-    class Etudiant : ContactEcole
-    {
+    class Enseignant : Personnel
 
+    {
         protected string section;
 
-        public Etudiant(int pAnneeArrivee, string pNom, string pSection) : base(pAnneeArrivee, pNom)
+        public Enseignant(int pAnneeArrivee, string pNom, string pNomLaboratoire, double pSalaire, string pSection) : base(pAnneeArrivee, pNom, pNomLaboratoire, pSalaire)
         {
             section = pSection;
         }
 
         public override string ToString()
         {
-            return base.ToString()+" Section : "+section;
+            return "Enseignant : \n" + base.ToString();
         }
     }
 }
